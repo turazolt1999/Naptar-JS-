@@ -38,7 +38,7 @@ function naptarImage(x, y, width, height, color, nap) {
     ctx.stroke();
 }
 
-// Festmények adatai
+// Hónapok adatai
 var honapok = [
     {
         name: "Január",
