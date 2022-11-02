@@ -106,7 +106,7 @@ var height = 200;
 var width = 200;
 for (var i in honapok) {
     var honap = honapok[i];
-    naptarImage(picPosX, picPisY, width, height, honap.favouriteColor, honap.nap);
+    naptarImage(picPosX, picPisY, width, height, honap.name, honap.nap);
     ctx.beginPath();
     ctx.fillStyle = "#ffffee";
     ctx.rect(picPosX + 70, picPisY + height + 20, 70, 20)
